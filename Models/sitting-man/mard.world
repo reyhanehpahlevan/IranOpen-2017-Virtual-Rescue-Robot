@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <world name='default'>
+
+
+
+  <model name='mard'>
+    <static>false</static>
+
+        <allow_auto_disable>1</allow_auto_disable>
+  </model>
+
+
+<actor name='actor'>
+  <skin>
+    <filename>sitting.dae</filename>
+    <scale>1</scale>
+  </skin>
+  <pose frame=''>3 -3 0 0 -0 0</pose>
+
+  <script/>
+  <link name='actor_pose'>
+    <gravity>0</gravity>
+    <pose frame=''>3 -3 0 0 -0 0</pose>
+    <visual name='actor_visual'>
+      <geometry>
+        <mesh>
+          <uri>sitting.dae</uri>
+          <scale>1 1 1</scale>
+        </mesh>
+      </geometry>
+    </visual>
+    <self_collide>0</self_collide>
+    <kinematic>0</kinematic>
+  </link>
+
+</actor> 
+ 
+</world>
+
+</sdf>
+
+
+

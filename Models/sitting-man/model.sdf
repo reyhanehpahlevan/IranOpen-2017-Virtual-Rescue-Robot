@@ -1,0 +1,25 @@
+<actor name='actor'>
+  <skin>
+   <filename>model://man-RedShirt-blackJean/man.dae</filename>
+    <scale>1</scale>
+  </skin>
+  <pose frame=''>0 0 0 0 -0 0</pose>
+
+  <script/>
+  <link name='actor_pose'>
+    <gravity>0</gravity>
+    <pose frame=''>0 0 0 0 -0 0</pose>
+    <visual name='actor_visual'>
+      <geometry>
+        <mesh>
+          <uri>model://man-RedShirt-blackJean/man.dae</uri>
+          <scale>1 1 1</scale>
+        </mesh>
+      </geometry>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+    </visual>
+    <self_collide>0</self_collide>
+    <kinematic>0</kinematic>
+  </link>
+
+</actor> 
